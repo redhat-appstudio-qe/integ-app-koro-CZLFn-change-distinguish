@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: hacbs-test-project-jmme
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/redhat-appstudio-qe/integration1-ywyb-tenant/integ-app-koro/hacbs-test-project-jmme@sha256:4139f7f751bdc148502960fbcf1d9d3051c9b961b891a89c9fde3092f657f8b6
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
